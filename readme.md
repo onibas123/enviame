@@ -35,6 +35,16 @@ Si todo sale bien, veremos algo como esto por la consola:
 >>> Server on port 8080
 >>> is connected!
 
+- Endpoints expuestos:
+
+url = localhost o tu servidor especificado
+
+POST     url:8080      =>  Creacion de empresa  => data body
+GET      url:8080      =>  Obtener todas las empresas
+GET      url:8080/id   =>  Obtener una empresa por su id => id params
+PUT      url:8080/id   =>  Editar empresa mediante id    => id params, data body
+DELETE   url:8080/id   => Eliminar empresa mediante id   => id params
+
 ## Ejercicio_4
 
 El ejercicio contra de un proyecto con 1 index.php, 1 archivo de ejemplo de consumo de api "api-postman-example.json" que se utilizo importandolo en el postman y 1 archivo "response_api.txt" que guarda la respuesta de la api.
