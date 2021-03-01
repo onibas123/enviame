@@ -37,13 +37,13 @@ Si todo sale bien, veremos algo como esto por la consola:
 
 - Endpoints expuestos:
 
-url = localhost o tu servidor especificado
+- url = localhost o tu servidor especificado
 
-POST     url:8080      =>  Creacion de empresa  => data body
-GET      url:8080      =>  Obtener todas las empresas
-GET      url:8080/id   =>  Obtener una empresa por su id => id params
-PUT      url:8080/id   =>  Editar empresa mediante id    => id params, data body
-DELETE   url:8080/id   => Eliminar empresa mediante id   => id params
+- POST     url:8080      =>  Creacion de empresa  => data body
+- GET      url:8080      =>  Obtener todas las empresas
+- GET      url:8080/id   =>  Obtener una empresa por su id => id params
+- PUT      url:8080/id   =>  Editar empresa mediante id    => id params, data body
+- DELETE   url:8080/id   => Eliminar empresa mediante id   => id params
 
 ## Ejercicio_4
 
