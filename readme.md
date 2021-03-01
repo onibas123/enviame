@@ -35,6 +35,12 @@ Si todo sale bien, veremos algo como esto por la consola:
 >>> Server on port 8080
 >>> is connected!
 
+## Ejercicio_4
+
+El ejercicio contra de un proyecto con 1 index.php, 1 archivo de ejemplo de consumo de api "api-postman-example.json" que se utilizo importandolo en el postman y 1 archivo "response_api.txt" que guarda la respuesta de la api.
+Por temas de tiempo no alcance a hacerlo de manera mas elaboradadejando dinamico los campos con clases y metodos, solo la hice en duro consumiendo la respuesta de la api con los datos de ejemplo del archivo utilizando curl en php.
+Solo hay que guardar el proyecto en la ruta Web y ejecutarlo.
+
 ## Ejercicio_5
 
 El ejercicio consta de un proyecto de 2 archivos PHP, basta con copiar el directorio y en un servidor web apache y ejecutarlo.
